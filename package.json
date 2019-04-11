@@ -4,7 +4,12 @@
   "description": "Marp in 5m",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "clean": "rm -rf dist/",
+    "build": "npm run -s image && npm run -s deck && npm run -s pdf",
+    "deck": "marp index.md -o dist/index.html",
+    "image": "marp index.md -o dist/index.png --image png",
+    "pdf": "marp index.md -o dist/index.pdf --pdf",
+    "start": "marp -ps ."
   },
   "author": "",
   "license": "ISC",
