@@ -1,0 +1,14 @@
+{
+  "name": "marp_demo",
+  "version": "1.0.0",
+  "description": "Marp in 5m",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@marp-team/marp-cli": "^0.8.1"
+  }
+}
