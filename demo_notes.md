@@ -24,10 +24,6 @@
 * Can put in git
 * Can put into automated workflows
 
-## MARP in 10s
-* Markdown
-* use `\r\n --- \r\n` to break a page
-
 ## Features
 * themes
 * PDF generation
@@ -41,17 +37,3 @@
 * which supports CommonMark spec and more
 * Very similar to GitHub Flavored MarkDown
 * its Javascript all the way down
-
-## Format
-* One MarkDown file
-* YAML front-matter
-* Directives
-  * Use HTML comments
-  * global
-  * local (and _spot)
-
-## MARP Tools
-* https://web.marp.app (:underconstruction)
-* MARP electron app (:deprecated)
-* CLI
-* VSCode!
